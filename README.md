@@ -10,5 +10,3 @@ for the ClauseShield hackathon POC. Edit cloud integrations and credentials befo
 4. For embeddings & LLM: install Vertex AI SDK and follow Vertex docs to enable models.
 5. Update `vertex_client.py` to call real Vertex AI embedding & generation APIs.
 6. Deploy backend to Cloud Run via Cloud Build (use cloudbuild.yaml).
-=======
->>>>>>> 94d5882cfce8f17381c0b932e5cc0798d53395e9
