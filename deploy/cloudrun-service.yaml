@@ -1,0 +1,15 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: clauseshield-backend
+  namespace: default
+spec:
+  template:
+    spec:
+      containers:
+        - image: gcr.io/PROJECT_ID/clauseshield-backend:latest
+          env:
+            - name: GCP_PROJECT
+              value: "PROJECT_ID"
+            - name: GCS_BUCKET
+              value: "clauseshield-uploads"

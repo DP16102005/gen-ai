@@ -1,0 +1,9 @@
+:root { --bg:#f7fafc; --card:#fff; --muted:#6b7280; --accent:#2563eb }
+body { font-family: Inter, Roboto, Arial, sans-serif; background:var(--bg); margin:0 }
+.topbar { display:flex; justify-content:space-between; padding:12px 24px; background:#fff; border-bottom:1px solid #e5e7eb }
+.main-grid { display:flex; gap:16px; padding:24px }
+.sidebar { width:160px; background:#fff; border:1px solid #e5e7eb; padding:12px }
+.content { flex:1; display:flex; flex-direction:column; gap:16px }
+.card { background:var(--card); border:1px solid #e5e7eb; padding:16px; border-radius:8px }
+button { background:var(--accent); color:white; border:none; padding:8px 12px; border-radius:6px; cursor:pointer }
+input, textarea { padding:8px; border:1px solid #e5e7eb; border-radius:6px; width:100% }
